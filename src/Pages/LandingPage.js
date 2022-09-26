@@ -1,3 +1,4 @@
+import '../Styles/LandingPage.css'
 import Footer from "../Components/LandingPage/Footer";
 import Header from "../Components/LandingPage/Header";
 import Main from "../Components/LandingPage/Main";

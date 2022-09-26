@@ -1,0 +1,234 @@
+.landingPage {
+    width: 95%;
+    max-width: 1440px;
+    margin: 10px;
+    background-color: #00302E;
+}
+
+/* Header Component Styles */
+
+.header {
+    padding: 60px 8.33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.lilies {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+}
+.lilies img {
+    width: 67px;
+}
+.liliesText {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.navBar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.navBar li {
+    list-style-type: none;
+}
+.navBar button {
+    background-color: #00302E;
+    border: 0;
+    color: #fff;
+    width: 142px;
+    height: 53px;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 0;
+}
+.navBar button:hover {
+    background-color: #E2B887;
+    color: #00302E;
+}
+
+/* Main Component Styles */
+/* SectionOne Component Styles */
+
+.sectionOne {
+    padding: 90px 8.33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.sectionOneText {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 21px;
+    align-items: flex-start;
+}
+.sectionOneText h1 {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.sectionOneText span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.74);
+}
+.sectionOneText > div {
+    width: 282px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.sectionOneImage {
+    width: 40%;
+}
+.sectionOneImage img {
+    width: 100%;
+}
+
+/* SectionTwo Component Styles */
+
+.sectionTwo {
+    padding: 90px 8.33%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 96px;
+    align-items: center;
+}
+.sectionTwoHeader {
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+    align-items: center;
+}
+.sectionTwoHeader h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    color: rgba(255, 255, 255, 0.87);
+    margin: 0;
+}
+.sectionTwoHeader p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.83);
+    margin: 0;
+}
+.sectionTwoSpecials {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    column-gap: 170px;
+    align-items: center;  
+}
+.specials {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+    align-items: center;
+}
+.specials img {
+    width: 100%;
+}
+.specialsText {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: center;
+}
+.specialsText h3 {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+    text-align: center;
+    color: #FBDDBB;    
+    margin: 0;
+}
+.specialsText p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.83); 
+    margin: 0; 
+}
+
+/* SectionThree Component Styles */
+
+.sectionThree {
+    padding: 180px 8.33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.sectionThreeText {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: flex-start;
+}
+.sectionThreeText h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    color: #FBDDBB;
+    margin: 0;
+}
+.sectionThreeText p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.95);
+    margin: 0;
+}
+.sectionThreeLogin {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.sectionThreeLogin input:nth-of-type(1) {
+    width: 68%;
+    height: 48px;
+    background-color: #F7F7F7;
+    border: 1px solid #B3B3B3;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* padding-left: 5px; */
+    color: #B2B2B2;
+}
+.sectionThreeLogin input:nth-of-type(2) {
+    width: 30%;
+    height: 51px;
+    background-color: #FBDDBB;
+    border: 1px solid #FBDDBB;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #00302E;
+}

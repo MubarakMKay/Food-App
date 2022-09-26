@@ -6,9 +6,9 @@ const Header = () => {
             <Lilies />
             <div className="navBar">
                 <ul>
-                    <li>Home</li>
-                    <li>Login</li>
-                    <li>Signup</li>
+                    <li><button>Home</button></li>
+                    <li><button>Login</button></li>
+                    <li><button>Signup</button></li>
                 </ul>
             </div>
         </div>
