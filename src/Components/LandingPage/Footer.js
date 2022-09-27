@@ -1,8 +1,8 @@
 import GooglePlay from '../../Assets/GooglePlay.png';
 import AppStore from '../../Assets/AppStore.png';
-import { FaInstagramSquare } from "react-icons/fa";
-import { FaTwitterSquare } from "react-icons/fa";
-import { FaYoutubeSquare } from "react-icons/fa";
+import Instagram from '../../Assets/SocialInstagram.png';
+import Twitter from '../../Assets/SocialTwitter.png';
+import Youtube from '../../Assets/SocialYoutube.png';
 
 const Footer = () => {
     return ( 
@@ -40,14 +40,15 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
+            <hr />
             <div className="footerBottom">
                 <div className="footerBottomCopyright">
                     <span>&copy; 2022 LILIES, All rights reserved</span>
                 </div>
                 <div className="footerBottomSocials">
-                    <FaInstagramSquare />
-                    <FaTwitterSquare />
-                    <FaYoutubeSquare />
+                    <img src={Instagram} alt="Instagram" />
+                    <img src={Twitter} alt="Twitter" />
+                    <img src={Youtube} alt="Youtube" />
                 </div>
             </div>
         </div>
