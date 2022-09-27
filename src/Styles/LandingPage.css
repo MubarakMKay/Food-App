@@ -42,6 +42,10 @@
 .navBar li {
     list-style-type: none;
 }
+.navBarLink{
+    color: #fff;
+    text-decoration: none;
+}
 .navBar button {
     background-color: #00302E;
     border: 0;

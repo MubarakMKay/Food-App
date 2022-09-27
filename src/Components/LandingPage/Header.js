@@ -1,4 +1,5 @@
 import Lilies from "../General/Lilies";
+import { Link } from "react-router-dom";
 
 const Header = () => {
     return ( 
@@ -6,9 +7,9 @@ const Header = () => {
             <Lilies />
             <div className="navBar">
                 <ul>
-                    <li><button>Home</button></li>
-                    <li><button>Login</button></li>
-                    <li><button>Signup</button></li>
+                    <li><Link to="/" className='navBarLink'><button>Home</button></Link></li>
+                    <li><Link to="/login" className='navBarLink'><button>Login</button></Link></li>
+                    <li><Link to="/signup" className='navBarLink'><button>Signup</button></Link></li>
                 </ul>
             </div>
         </div>
