@@ -1,6 +1,10 @@
+import SignupMain from "../Components/Signup/SignupMain";
+
 const Signup = () => {
     return ( 
-        <h2 className="sign">sign</h2>
+        <div className="signup">
+            <SignupMain />
+        </div>
      );
 }
  

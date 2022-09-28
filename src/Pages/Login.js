@@ -1,6 +1,10 @@
+import LoginMain from "../Components/Login/LoginMain";
+
 const Login = () => {
     return ( 
-        <h2 className="yeah">Login</h2>
+        <div className="login">
+            <LoginMain />
+        </div>
      );
 }
  
