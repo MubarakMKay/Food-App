@@ -30,7 +30,7 @@
     color: #00302E;
 }
 .signupDetails > div {
-    width: 75%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     row-gap: 35px;
@@ -54,9 +54,10 @@
     line-height: 33px;
     text-align: left;
     color: rgba(0, 48, 46, 0.53);
+    padding: 0 5%;
 }
 .signupDetails input:nth-of-type(4) {
-    width: 100%;
+    width: 110%;
     height: 60px;
     background: #00302E;
     border-radius: 5px;
@@ -67,7 +68,7 @@
     color: #FBDDBB;
 }
 .signupDetailsOthers {
-    width: 100%;
+    width: 110%;
     display: flex;
     flex-direction: row;
     justify-content: center;
