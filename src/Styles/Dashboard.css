@@ -1,0 +1,84 @@
+.dashboard {
+    width: 95%;
+    max-width: 1440px;
+    margin: 10px;
+    background-color: #fff;
+}
+
+/* Dashboard Original */
+
+.dashboardOriginal {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+/* Dashboard Sidebar */
+
+.dashboardSidebar {
+    width: 320px;    
+    background-color: #00302E;
+    display: flex;
+    flex-direction: column;
+    row-gap: 112px;
+    justify-items: center;
+    align-items: center;
+}
+.dashboardSidebar .lilies {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+}
+.dashboardSidebar .lilies img {
+    width: 60px;
+}
+.dashboardSidebar .liliesText {
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 50px;
+    color: #fff;
+}
+.dashboardSidebarMenu {
+    width: 270px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.dashboardSidebarMenuEach {
+    width: 255px;
+    height: 50px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    align-items: center;
+}
+.dashboardSidebarMenuEach:hover {
+    background-color: #EFEFEF;
+    border-radius: 12px;
+}
+
+/* Dashboard Others */
+
+.dashboardOriginalOthers {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Dashboard Header */
+
+.dashboardHeader {
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
