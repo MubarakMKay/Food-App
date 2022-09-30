@@ -25,6 +25,10 @@
     justify-items: center;
     align-items: center;
 }
+.dashboardSidebar .dashboardLink{
+    color: #00302E;
+    text-decoration: none;
+}
 .dashboardSidebar .lilies {
     width: 200px;
     display: flex;
