@@ -61,6 +61,7 @@
 .dashboardSidebarMenuEach:hover {
     background-color: #EFEFEF;
     border-radius: 12px;
+    cursor: pointer;
 }
 
 /* Dashboard Others */
@@ -133,6 +134,11 @@
     row-gap: 20px;
     align-items: center;
     padding: 44px 0 26px 0;
+}
+.item:hover {
+    border: 0.3px solid #00302E;
+    box-shadow: 5px 5px 5px #00302E;
+    cursor: pointer;
 }
 .itemDetails {
     display: flex;
