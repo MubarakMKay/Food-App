@@ -17,8 +17,8 @@
 /* Dashboard Sidebar */
 
 .dashboardSidebar {
-    width: 320px;    
-    background-color: #00302E;
+    padding: 125px 25px 0 25px;    
+    background-color: #FBFBFB;
     display: flex;
     flex-direction: column;
     row-gap: 112px;
@@ -39,7 +39,7 @@
     font-weight: 700;
     font-size: 33px;
     line-height: 50px;
-    color: #fff;
+    color: #00302E;
 }
 .dashboardSidebarMenu {
     width: 270px;
@@ -67,8 +67,9 @@
 
 .dashboardOriginalOthers {
     width: 100%;
+    padding: 140px 0 0 68px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
 }
@@ -76,9 +77,101 @@
 /* Dashboard Header */
 
 .dashboardHeader {
-    width: 100%;    
+    width: 100%; 
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    /* align-items: center; */
+}
+.dashboardHeaderText {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+}
+.dashboardHeaderText h1 {
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 33px;
+    color: #00302E;
+    margin: 0;
+}
+.dashboardHeaderText p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 33px;
+    color: rgba(0, 0, 0, 0.69);
+    margin: 0;
+}
+
+/* Dashboard Main */
+
+.dashboardMain {
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.items {
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+    column-gap: 120px;
+    row-gap: 68px;
+    flex-wrap: wrap;
     align-items: center;
+}
+.item {
+    width: 240px;
+    height: 237px;
+    background-color: rgba(255, 255, 255, 0.83);
+    border: 0.3px solid rgba(0, 48, 46, 0.14);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    padding: 44px 0 26px 0;
+}
+.itemDetails {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    align-items: center;
+}
+.itemDetails h3 {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 33px;
+    color: #00302E;
+    margin: 0;
+}
+.itemDetails span {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.69);
+}
+.itemOthers {
+    width: 197px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.itemOthers input {
+    border: 0;
+    width: 70px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 33px;
+    color: #00302E;
+}
+.itemOthers span {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 33px;
+    color: #06E775;
 }

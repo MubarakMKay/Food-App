@@ -6,7 +6,7 @@ const DashboardOriginal = () => {
     return ( 
         <div className="dashboardOriginal">
             <DashboardSidebar />
-            <div className="dashBoardOriginalOthers">
+            <div className="dashboardOriginalOthers">
                 <DashboardHeader />
                 <DashboardMain />
             </div>

@@ -1,9 +1,9 @@
-import Item from "./Item";
+import Items from "./Items";
 
 const DashboardMain = () => {
     return ( 
         <div className="dashboardMain">
-            <Item />
+            <Items />
         </div>
      );
 }
