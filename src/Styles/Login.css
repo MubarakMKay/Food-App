@@ -30,7 +30,7 @@
     color: #00302E;
 }
 .loginDetails > div {
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     row-gap: 35px;
@@ -55,9 +55,10 @@
     text-align: left;
     color: rgba(0, 48, 46, 0.53);
     padding: 0 5%;
+    box-sizing: border-box;
 }
 .loginDetails .dashboardLink {
-    width: 110%;
+    width: 100%;
     height: 60px;
     /* padding: 0 15px; */
 }
@@ -74,7 +75,7 @@
     /* padding: 0 15px; */
 }
 .loginDetailsOthers {
-    width: 110%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

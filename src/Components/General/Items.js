@@ -13,7 +13,7 @@ const Items = () => {
                 </div>
                 <div className="itemDetails">
                     <h3 className="itemName">Burger</h3>
-                    <span className="itemDescription">The in-house pasta and<br />chicken by chef Moose</span>
+                    <span className="itemDescription">Oh, the things I would<br />do just for a bite</span>
                 </div>
                 <div className="itemOthers">
                     <input type="text" name="Currency" id="" value="N 1,000.00"/>
@@ -39,7 +39,7 @@ const Items = () => {
                 </div>
                 <div className="itemDetails">
                     <h3 className="itemName">Meat Balls</h3>
-                    <span className="itemDescription">The in-house pasta and<br />chicken by chef Moose</span>
+                    <span className="itemDescription">These new balls are crazy<br />addictive while they're hot</span>
                 </div>
                 <div className="itemOthers">
                     <input type="text" name="Currency" id="" value="N 3,000.00"/>
@@ -51,8 +51,8 @@ const Items = () => {
                     <img src={Image4} alt="" className='itemImg'/>
                 </div>
                 <div className="itemDetails">
-                    <h3 className="itemName">Bread and Plantain</h3>
-                    <span className="itemDescription">The in-house pasta and<br />chicken by chef Moose</span>
+                    <h3 className="itemName">Blueberry Toast</h3>
+                    <span className="itemDescription">Just have a single bite of<br />this Black Forest pastry</span>
                 </div>
                 <div className="itemOthers">
                     <input type="text" name="Currency" id="" value="N 4,000.00"/>
@@ -65,7 +65,7 @@ const Items = () => {
                 </div>
                 <div className="itemDetails">
                     <h3 className="itemName">Stir Fry Soup</h3>
-                    <span className="itemDescription">The in-house pasta and<br />chicken by chef Moose</span>
+                    <span className="itemDescription">The in-house soup and<br />chicken by chef Moose</span>
                 </div>
                 <div className="itemOthers">
                     <input type="text" name="Currency" id="" value="N 5,000.00"/>
